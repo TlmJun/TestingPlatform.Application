@@ -13,6 +13,6 @@ public class QuestionDto
     public int? MaxScore { get; set; }
 
     public int TestId { get; set; }
-    public List<AnswerDto>? Answers { get; set; }
+    public List<AnswerDto> Answers { get; set; }
 }
 
