@@ -4,7 +4,7 @@ namespace TestingPlatform.Application.Interfaces;
 
 public interface IQuestionRepository
 {
-    Task<IEnumerable<QuestionDto>> GetAllAsync();
+    Task<List<QuestionDto>> GetAllAsync();
     Task<QuestionDto> GetByIdAsync(int id);
     Task<int> CreateAsync(QuestionDto questionDto);
     Task UpdateAsync(QuestionDto questionDto);
