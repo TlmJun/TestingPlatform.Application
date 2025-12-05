@@ -6,4 +6,3 @@ public interface IAuthRepository
 {
     Task<UserDto> AuthorizeUser(UserLoginDto userLoginDto);
 }
-
